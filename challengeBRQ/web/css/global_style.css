@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 62.5%;
+    list-style-type: none;
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+img{
+    display: inline-block;
+    object-fit: contain;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a,p,span,label, .ButtonSend{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2rem;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+a, h1, h2{
+    color:#fff;
+}
+label, .ButtonSend {
+    color:#324156
+}
+label{
+    display: block;
+}
+select, input, .buttonSend{
+    color:black;
+    font-size: 1.6rem;
+}
+

@@ -1,0 +1,214 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main h1{
+    padding: 4rem 0rem 2rem 0rem;
+    text-align: center;
+}
+.inner_box{
+    height: 11rem;
+    width: 30rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    align-items: center;
+    justify-content: center;
+}
+.btn_action{
+    font-size: 1.6rem;
+    padding-left: 0.5rem;
+    color:#000;
+    border:none;
+    width: 100%;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    cursor:pointer;
+    transition: 0.3s linear;
+}
+.btn_action:hover{
+    background-color: #0000004d;
+    color:#fff;
+}
+.c_painel{
+    width: 25%;
+    min-width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+}
+.allDialog{
+   margin: 0 auto; 
+   padding: 2rem 2rem;
+}
+.allDialog h2{
+    font-size: 1.4rem;
+    color:#fff;
+    margin-bottom: 1rem;
+}
+.allDialog h1{
+    color:#fff;
+    font-size: 2.5rem;
+}
+.allDialog label{
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem;
+}
+
+.allDialog input, select {
+    width: 100%;
+}
+
+.oficinas_painel{
+    overflow: scroll;
+    top:10%;
+    width: 30%;
+}
+.oficinas_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.oficinas_container .card_content{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.oficinas_container .card_header img{
+    width: 28rem;
+}
+.card_content ul{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_content ul li{
+    display: flex;
+    gap:2rem;
+    margin-bottom: 1.5rem;
+}
+.card_content img{
+    width: 2rem;
+}
+iframe{
+   border-radius: 50%;
+   align-self: center;
+}
+
+
+
+.painel_sinistro{
+    top:10%;
+}
+
+.container_sinistro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section_veichle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_veichle img{
+    max-width: 60rem;
+}
+.container_radios{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-colunm input{
+    width: 40rem;
+    margin-top: 1rem;
+}
+.flex-colunm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    max-width: 50rem;
+    width: 100%;
+    resize: none;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+
+.frota_painel{
+    max-width: 120rem;
+    min-width: none;
+}
+.frota_image{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frota_container{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+.frota_content{
+    display: flex;
+    align-items: center;
+    background-color: rgba(2, 146, 230, 0.568);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.dados_frota{
+    align-self: flex-end;
+}
+.ButtonSend4{
+  max-width: 25rem;  
+}
+.enviarApolice{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+
+@media (max-width:1200px){
+    .oficinas_painel{
+        width: 70%;
+    }
+}
+
+@media (max-width:900px){
+    .frota_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .enviarApolice{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:768px){
+    .oficinas_painel{
+        width: 90%;
+    }
+    .main{
+        height: 88vh;
+        justify-content: flex-start;
+    }
+}
