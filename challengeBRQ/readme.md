@@ -6,7 +6,8 @@ Com o trabalho todo pronto, eu (representande do grupo) e meu grupo, fomos class
 
 Entre 130 grupos, apenas 25 foram classificados. No eveneto, ocorreu uma premiação entre o top 3. Infelizmente, não tivemos o melhor desempenho possível, ficando em quinto lugar!
 
-No trabalho, fiquei responsável 100% pelo front-end. Sendo a parte de diagramagem e modelagem, com os outros integrantes.
+Durante o desenvolvimentos, trabalhos com front-end e back-end. Fiz parte do back-end, ajudando na construção do código Java.
+
 
 ------------------------------------------------------------
 
